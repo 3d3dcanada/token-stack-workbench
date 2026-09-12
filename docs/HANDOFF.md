@@ -73,9 +73,10 @@ The existing adapter and installed guard were retained unchanged.
 The doctor gained the local execution probe. Saved fixtures missing the rewrite or
 denial fail. Shared instructions were corrected. Adapter tests increased from 13 to 16.
 Earlier temporary-directory probes made Codex add project-trust entries; those were
-removed and the harness now uses an already-trusted home directory. A full original
-Codex-config byte hash did not restore; the local report records that residual limit
-without claiming a blanket config restoration. Hook/model values remained preserved.
+removed and the harness now uses an already-trusted home directory. The first saved
+config hash included three early fixture entries; adding just those entries back in
+memory reproduced that hash exactly. All other config bytes were unchanged. No
+blanket config restoration or hook-trust bypass was used.
 
 ## Still decisions, not installed changes
 

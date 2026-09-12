@@ -15,6 +15,7 @@ Source workstation observations, September 12, 2026:
 | Updated machine doctor | Exit 0, no warnings |
 | Installed guard and adapter | Byte hashes unchanged |
 | Claude settings and memory | Byte hashes unchanged |
+| Codex config | Only fixture-created project entries removed; other bytes match by hash reconstruction |
 
 Representative host output:
 
@@ -48,8 +49,6 @@ Remaining gates:
 - approved, fact-preserving memory reduction under verified loader limits;
 - general code-mode schema/batching savings under a real provider workload;
 - review after client, RTK, hook or configuration upgrades;
-- full explanation of residual source Codex-config byte-hash drift after temporary
-  trust-entry cleanup; no whole-config restoration is claimed.
 
 The original private evidence and backups remain on the owner's machine. Aggregate
 numbers and representative outputs here are sanitized summaries. They are not a
